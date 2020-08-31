@@ -27,8 +27,7 @@
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 255);
-background-color: rgb(85, 0, 255);
+     <string notr="true">background-color: rgb(255, 85, 0);
 border-color:white;
 border:none;</string>
     </property>
@@ -124,7 +123,8 @@ background-color:rgba(0,0,0,0);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(170, 0, 255);</string>
+     <string notr="true">background-color: rgb(112, 128, 144);
+border:2px solid black;</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
@@ -175,9 +175,10 @@ background-color:rgba(0,0,0,0);</string>
       <enum>Qt::LeftToRight</enum>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 255);
+      <string notr="true">background-color: rgb(255, 85, 0);
 Text-align:center;
-border-radius:20px</string>
+border-radius:20px;
+border:2px solid black;</string>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;FCFS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -205,9 +206,10 @@ border-radius:20px</string>
       <enum>Qt::LeftToRight</enum>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 255);
+      <string notr="true">background-color: rgb(255, 85, 0);
 Text-align:center;
-border-radius:20px</string>
+border-radius:20px;
+border:2px solid black;</string>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;FCFS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -235,9 +237,10 @@ border-radius:20px</string>
       <enum>Qt::LeftToRight</enum>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 255);
+      <string notr="true">background-color: rgb(255, 85, 0);
 Text-align:center;
-border-radius:20px</string>
+border-radius:20px;
+border:2px solid black;</string>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;FCFS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -265,9 +268,10 @@ border-radius:20px</string>
       <enum>Qt::LeftToRight</enum>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 255);
+      <string notr="true">background-color: rgb(255, 85, 0);
 Text-align:center;
-border-radius:20px</string>
+border-radius:20px;
+border:2px solid black;</string>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;FCFS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -295,9 +299,10 @@ border-radius:20px</string>
       <enum>Qt::LeftToRight</enum>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 255);
+      <string notr="true">background-color: rgb(255, 85, 0);
 Text-align:center;
-border-radius:20px</string>
+border-radius:20px;
+border:2px solid black;</string>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;FCFS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -309,7 +314,7 @@ border-radius:20px</string>
       <bool>false</bool>
      </property>
     </widget>
-    <widget class="QLabel" name="label_12">
+    <widget class="QLabel" name="label_12about">
      <property name="geometry">
       <rect>
        <x>0</x>
@@ -325,7 +330,7 @@ border-radius:20px</string>
       <enum>Qt::LeftToRight</enum>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 255);
+      <string notr="true">background-color: rgb(255, 85, 0);
 Text-align:center;</string>
      </property>
      <property name="text">
@@ -352,9 +357,9 @@ Text-align:center;</string>
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(73, 23, 200);
+     <string notr="true">background-color: rgb(255, 85, 0);
 border-color:white;
-border:none;</string>
+border-top:4px solid black;</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -370,6 +375,9 @@ border:none;</string>
        <width>101</width>
        <height>16</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:none;</string>
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Demo Version&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -399,7 +407,7 @@ border:none;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 0);</string>
+     <string notr="true">background-color: rgb(128, 128, 128);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -417,8 +425,9 @@ border:none;</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);
-border-radius:20px;</string>
+      <string notr="true">background-color: rgb(112, 128, 144);
+border-radius:20px;
+border:2px solid black;</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::StyledPanel</enum>
@@ -438,6 +447,9 @@ border-radius:20px;</string>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
         <widget class="QLabel" name="label_7">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 85, 0);</string>
+         </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Process id&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -513,7 +525,11 @@ border-radius:20px;</string>
         <widget class="QSpinBox" name="p5b5id"/>
        </item>
        <item>
-        <widget class="QSpinBox" name="p6b6id"/>
+        <widget class="QSpinBox" name="p6b6id">
+         <property name="styleSheet">
+          <string notr="true">border-radius:none;</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>
@@ -526,6 +542,9 @@ border-radius:20px;</string>
         <height>31</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 85, 0);</string>
+      </property>
       <property name="text">
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Brust Time&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
@@ -535,13 +554,16 @@ border-radius:20px;</string>
        <rect>
         <x>650</x>
         <y>30</y>
-        <width>116</width>
+        <width>126</width>
         <height>251</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <item>
         <widget class="QLabel" name="label_8">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 85, 0);</string>
+         </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Turn Around Time&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -596,13 +618,16 @@ border-radius:20px;</string>
        <rect>
         <x>520</x>
         <y>30</y>
-        <width>106</width>
+        <width>116</width>
         <height>251</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_4">
        <item>
         <widget class="QLabel" name="label_9">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 85, 0);</string>
+         </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Completion Time&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -664,6 +689,9 @@ border-radius:20px;</string>
       <layout class="QVBoxLayout" name="verticalLayout_5">
        <item>
         <widget class="QLabel" name="label_10">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 85, 0);</string>
+         </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Waiting Time&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -721,6 +749,9 @@ border-radius:20px;</string>
         <width>99</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 85, 0);</string>
       </property>
       <property name="text">
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Arrival Time&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -788,6 +819,10 @@ border-radius:20px;</string>
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
         <widget class="QLabel" name="program1">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(112, 128, 144);
+border:2px solid black;</string>
+         </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;TextLabel&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -795,6 +830,10 @@ border-radius:20px;</string>
        </item>
        <item>
         <widget class="QLabel" name="program2">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(112, 128, 144);
+border:2px solid black;</string>
+         </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;TextLabel&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -802,6 +841,10 @@ border-radius:20px;</string>
        </item>
        <item>
         <widget class="QLabel" name="program3">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(112, 128, 144);
+border:2px solid black;</string>
+         </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;TextLabel&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -809,6 +852,10 @@ border-radius:20px;</string>
        </item>
        <item>
         <widget class="QLabel" name="program4">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(112, 128, 144);
+border:2px solid black;</string>
+         </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;TextLabel&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -816,6 +863,10 @@ border-radius:20px;</string>
        </item>
        <item>
         <widget class="QLabel" name="program5">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(112, 128, 144);
+border:2px solid black;</string>
+         </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;TextLabel&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -823,6 +874,10 @@ border-radius:20px;</string>
        </item>
        <item>
         <widget class="QLabel" name="program6">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(112, 128, 144);
+border:2px solid black;</string>
+         </property>
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;TextLabel&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -841,7 +896,7 @@ border-radius:20px;</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 255);
+      <string notr="true">background-color: rgb(255, 85, 0);
 border-radius:10px;</string>
      </property>
      <property name="text">
@@ -858,7 +913,7 @@ border-radius:10px;</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 255);
+      <string notr="true">background-color: rgb(255, 85, 0);
 border-radius:10px;</string>
      </property>
      <property name="text">
